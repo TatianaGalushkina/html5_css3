@@ -381,8 +381,9 @@ body {
 }
 
 .prices-item {
+    padding: 0 0 20px 0;
     width: 25%;
-    margin: 0 20px 0 0;
+    margin: 0 20px 0 0 ;
     box-sizing: border-box;
     border: 1px solid #445162;
     background-color: #445162;
@@ -424,8 +425,9 @@ body {
 .prices-item-btn {
     width: 90%;
     height: 40px;
-
-    margin: 0 0 20px 0;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
     box-sizing: border-box;
     text-align: center;
     background-color: #ffffff;
@@ -435,8 +437,8 @@ body {
     color: #445161;
     border-radius: 10px;
     text-transform: uppercase;
-
 }
+
 .prices-item-btn:hover {
     background-color: gray;
     color: white;
@@ -523,7 +525,7 @@ textarea[placeholder] {
     text-align: left;
 }
 
-.main-footer-form input[type="submit"] {
+.main-footer-form-btn {
     border-radius: 10px;
     background-color: #ffffff;
     width: 140px;
@@ -536,7 +538,7 @@ textarea[placeholder] {
     line-height: 24px;
     text-align: center;
     outline: none;
-    font-family: ArialMT;
+    cursor: pointer;
 }
 
 .main-footer-form input[type="submit"]:hover {

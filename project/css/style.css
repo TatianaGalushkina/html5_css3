@@ -560,14 +560,42 @@ textarea[placeholder] {
     width: 240px;
 }
 
+
 .main-footer-contacts-link {
     margin: 0 0 20px 0;
     text-decoration: none;
     display: block;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 28px;
     font-weight: 400;
     color: #ffffff;
+}
+
+.main-footer-contacts-social {
+    display: flex;
+    width: 240px;
+}
+.main-footer-contacts-social-item {
+    display: block;
+    width: 50px;
+    height: 42px;
+    background-image: url('../img/social_buttons_338.png');    
+}
+
+.main-footer-contacts-social-item:nth-child(1){
+    background-position: 0 0;
+}
+.main-footer-contacts-social-item:nth-child(2){
+    background-position: -48px 0;
+}
+.main-footer-contacts-social-item:nth-child(3){
+    background-position: -96px 0;
+}
+.main-footer-contacts-social-item:nth-child(4){
+    background-position: -144px 0;
+}
+.main-footer-contacts-social-item:nth-child(5){
+    background-position: -192px 0;
 }
 
 .main-footer-copy {

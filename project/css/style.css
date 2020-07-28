@@ -55,7 +55,7 @@ body {
     display: block;
     width: 25px;
     height: 19px;
-    background-image: url(img/check_icon_346.png);
+    background-image: url(../img/check_icon_346.png);
     background-size: cover;
     position: absolute;
     top: 10px;
@@ -129,7 +129,7 @@ body {
 }
 
 .dignity {
-    padding: 50px;
+    padding: 50px 50px 30px 50px;
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -204,7 +204,7 @@ body {
 }
 
 .screenshots {
-    padding: 0 50px 30px 50px;
+    padding: 50px;
     margin: 0;
     width: 100%;
     box-sizing: border-box;
@@ -383,7 +383,7 @@ body {
 .prices-item {
     padding: 0 0 20px 0;
     width: 25%;
-    margin: 0 20px 0 0 ;
+    margin: 0 20px 0 0;
     box-sizing: border-box;
     border: 1px solid #445162;
     background-color: #445162;
@@ -396,7 +396,9 @@ body {
 }
 
 .prices-item-head {
-    font-family: ArialMT;
+    margin: 0;
+    padding: 16px;
+    box-sizing: border-box;
     font-size: 24px;
     line-height: 30px;
     font-weight: 400;
@@ -405,6 +407,8 @@ body {
 }
 
 .prices-item-price {
+    padding: 18px;
+    box-sizing: border-box;
     font-size: 40px;
     line-height: 45px;
     font-weight: 400;
@@ -412,7 +416,7 @@ body {
     text-align: center;
     background-color: #fff;
     display: block;
-    height: 45px;
+
 }
 
 .prices-item-list {
@@ -453,9 +457,10 @@ body {
 }
 
 .main-footer-title {
+    padding: 0;
+    margin: 0 0 20px 0;
     display: block;
     width: 100%;
-    margin: 50px 0 30px 0;
     color: #ffffff;
     font-size: 30px;
     font-weight: 400;
@@ -468,7 +473,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0;
-    padding: 0 0 50px 0;
+    padding: 50px;
 }
 
 .main-footer-form {

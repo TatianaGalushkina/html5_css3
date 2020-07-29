@@ -3,19 +3,18 @@ body {
 }
 
 .container {
-    width: 1280px;
+    width: 1920px;
     margin: 0 auto;
     border: 1px solid black;
 }
 
 .main-header-nav {
-    padding 0;
-    margin 0;
+    padding: 0;
+    margin: 40px 375px 40px 375px;
     border: 1px solid black;
     box-sizing: border-box;
-    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
 
 }
 
@@ -41,7 +40,8 @@ body {
 }
 
 .main-header-nav-menu{
-    width: 50%;
+    display: flex;
+    width: 60%;
 }
 .main-header-menu-list {
     display: flex;

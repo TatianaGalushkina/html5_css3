@@ -652,7 +652,7 @@ body {
     margin:0;
     padding: 48px 346px 0 346px;
     box-sizing: border-box;
-    min-height: 700px;
+    min-height: 697px;
     background-color: #fbfaf8;
 }
 
@@ -692,4 +692,77 @@ body {
     color: #8c8c8c;
     font-style: normal;
     text-align: center;
+}
+
+.content-purchase{
+	padding:0 375px;
+	margin:0;
+	box-sizing: border-box;
+	min-height: 150px;
+	background-image: url(../img/background_10778.jpg);
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.content-purchase-content{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+
+}
+.content-purchase-header{
+	font-family: 'raleway', sans-serif;
+	font-size: 28px;
+	line-height: 1.2;
+	font-style: normal;
+	font-weight: 400;
+	color: #ffffff;
+}
+.content-purchase-header-link{
+	font-family: 'raleway', sans-serif;
+	font-size: 28px;
+	line-height: 1.2;
+	font-style: normal;
+	font-weight: 400;
+	color: #c7b299;
+	text-decoration:none;
+}
+
+.content-purchase-txt{
+	font-family: 'montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 1.2;
+	font-style: normal;
+	font-weight: 300;
+	color: #615855;
+}
+
+.content-purchase-btn{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	width: 170px;
+	height: 50px;
+	background-color: #998675;
+	border-radius: 3px;
+	font-family: 'raleway', sans-serif;
+	font-size: 14px;
+	line-height: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.content-purchase-btn:hover{
+	background-color: #fff;
+	color: #998675;
+}
+
+.content-purchase-btn:active{
+	background-color: #998675;
+	color: #fff;
 }

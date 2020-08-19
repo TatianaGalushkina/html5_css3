@@ -1395,24 +1395,26 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-    justify-content: center;
-    position: relative;
-    text-align: center;
+    justify-content: left;
+    text-align: left;
     top: 20px;
     left: 20px;
 }
-
-
 .content-recent-article-data-date{
-    
-}
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 
+}
 .content-recent-article-data {
    margin: 0;
     box-sizing: border-box;
     height: 175px;
-    position: absolute;
+
 }
+
+
+
 .content-recent-article-data-day{
     padding: 10px 0 10px 0;
     margin: 0;
